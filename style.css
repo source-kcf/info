@@ -16,3 +16,28 @@ a {
     padding: 5px;
     min-height: 100px;
 }
+
+.dotdot {
+    border: 2px dashed aquamarine;
+    border-radius: 2.5em;
+    height: 3em;
+    width: 3em;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dotdot-wrapper {
+    text-align: center;
+    margin: 1em 0;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9rem;
+    }
+    .dotdot {
+        font-size: 0.9rem;
+    }
+}
