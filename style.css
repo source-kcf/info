@@ -1,6 +1,9 @@
 body {
     color: aquamarine;
     background-color: #004040;
+    width: 41.4%;
+    margin: 0 auto;
+}
 }
 
 h1 {
@@ -18,15 +21,25 @@ a {
 }
 
 .dotdot {
-    border: 2px dashed aquamarine;
-    border-radius: 2.5em;
-    height: 3em;
-    width: 3em;
+    color: aquamarine;
+    font-size: 1.3em;
+    text-decoration: none;
+    border: 1px solid aquamarine;
+    border-radius: 2em;
+    height: 4em;
+    width: 4em;
     text-align: center;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
+    transition: background-color 0.2s, color 0.2s;
 }
+
+.dotdot:hover {
+    background-color: aquamarine;
+    color: #004040;
+}   
 
 .dotdot-wrapper {
     text-align: center;
@@ -39,5 +52,12 @@ a {
     }
     .dotdot {
         font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 601px) {
+    body {
+        width: 41.4%;
+        margin: 0 auto;
     }
 }
