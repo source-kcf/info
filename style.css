@@ -1,3 +1,18 @@
+body {
+    color: aquamarine;
+    background-color: #004040;
+}
+
 h1 {
     font-family: serif;
+}
+
+a {
+    color: 	skyblue;
+}
+
+.memo {
+    border: 1px solid #ccc;
+    padding: 5px;
+    min-height: 100px;
 }
